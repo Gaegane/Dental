@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-NhF/H8mvSobzsm1BUk3ZTy0kDEH/6vQ2ez2VZ5CZzI0Oq+edGuAv4YG4v00yARjM7fD9rXe/2bC8ozfUbWzIaQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.remixicon.com/releases/v1.4.2/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Dental</title>
+   
+</head>
+<body>
+    <div class="main-container">
+        <!-- Top Navigation -->
+        <div class="top-nav" id="home">
+          <div class="contact-info">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+123456789">+1 (234) 567-89</a>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:email@example.com">email@example.com</a>
+          </div>
+          <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook"></a>
+            <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://wa.me/+123456789" target="_blank" class="fab fa-whatsapp"></a>
+            <a href="https://www.tiktok.com" target="_blank" class="fab fa-tiktok"></a>
+          </div>
+        </div>
+      
+        <!-- Navbar -->
+        <nav class="navbar">
+          <div class="logo">
+            <img src="images/Dentistry_Logo.png" alt="Logo" style="width:160%; height:60px; ">
+          </div>
+          <div class="menu-icon" id="menu-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="hover:text-blue-300 transition">Home</a></li>
+            <li><a href="#about" class="hover:text-blue-300 transition">About us</a></li>
+            <li><a href="#services" class="hover:text-blue-300 transition">Services</a></li>
+            <li><a href="#doctors" class="hover:text-blue-300 transition">Doctors</a></li>
+            <li><a href="#appointment" class="hover:text-blue-300 transition">Book Appointment</a></li>
+          </ul>
+        </nav>
+      
+        <!-- Slideshow -->
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="images/A Close-Up Look at a Dental Assistant with a Dental Implant.jpg" alt="Slide 1">
+          </div>
+          <div class="mySlides fade">
+            <img src="images/download (10).jpg" alt="Slide 2">
+          </div>
+          <div class="mySlides fade">
+            <img src="images/Advanced.jpg" alt="Slide 3">
+          </div>
+      
+          <div class="text">
+            Keep your smile healthy <br>and bright! <br> Book an appointment today.
+            <br><br>
+            <a href="#book-now" class="book-now-btn">Book Now</a>
+          </div>
+      
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </div>
+      
+
+      <!-- Red Container for Working Hours -->
+      <div class="red-container">
+        <h2 style="color: #000000;">Dentist Working Hours</h2>
+        <div class="working-hours">
+            <div>
+                <i class="fas fa-calendar-day"></i>
+                <span>Monday</span>
+                <p>9:00 AM - 5:00 PM</p>
+            </div>
+            <div>
+                <i class="fas fa-calendar-day"></i>
+                <span>Tuesday</span>
+                <p>9:00 AM - 5:00 PM</p>
+            </div>
+            <div>
+                <i class="fas fa-calendar-day"></i>
+                <span>Wednesday</span>
+                <p>9:00 AM - 5:00 PM</p>
+            </div>
+            <div>
+                <i class="fas fa-calendar-day"></i>
+                <span>Thursday</span>
+                <p>9:00 AM - 5:00 PM</p>
+            </div>
+            <div>
+                <i class="fas fa-calendar-day"></i>
+                <span>Friday</span>
+                <p>9:00 AM - 5:00 PM</p>
+            </div>
+            <div>
+                <i class="fas fa-calendar-day"></i>
+                <span>Saturday</span>
+                <p>Closed</p>
+            </div>
+            <div>
+                <i class="fas fa-calendar-day"></i>
+                <span>Sunday</span>
+                <p>Closed</p>
+            </div>
+        </div>
+    </div>
+ <!-- About Section -->
+ <div class="about"  id="about">
+    <h2 style="color:#000000">About us</h2>
+    <div class="about-container">
+        <!-- Left Container (Text) -->
+        <div class="about-text">
+            <h3>Our Story</h3>
+            <p>At our dental clinic, we are committed to providing high-quality dental care with a focus on patient comfort and satisfaction. Our team of experienced professionals is dedicated to helping you maintain a healthy, beautiful smile for life. We offer a wide range of services, from routine cleanings and check-ups to advanced treatments such as cosmetic dentistry and orthodontics. Whether you need preventive care or more specialized treatment, we are here to meet your needs with personalized, compassionate service.</p>
+            <p>We understand that visiting the dentist can be a stressful experience for some patients, which is why we prioritize creating a calm and welcoming environment. Our state-of-the-art technology and modern techniques ensure that you receive the best care available, while our friendly staff is always ready to assist you with any questions or concerns. At our clinic, your oral health and well-being are our top priorities, and we are here to help you achieve the smile you deserve.</p>
+            
+            
+        </div>
+
+        <!-- Right Container (Image) -->
+        <div class="about-image">
+            <img src="images/About Us.jpg" alt="About Image">
+        </div>
+    </div>
+</div>
+
+<div class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="services-container">
+        <!-- Left Service Column -->
+        <div class="service-column">
+            <div class="service-item">
+                <i class="fas fa-tooth" style="font-size: 40px; color: #007bff;"></i> <!-- Tooth Icon -->
+                <h3>Teeth Whitening</h3>
+                <p>Brighten your smile with our professional teeth whitening services, giving you a whiter and more confident smile.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-toothbrush" style="font-size: 40px; color: #007bff;"></i> <!-- Toothbrush Icon -->
+                <h3>General Dentistry</h3>
+                <p>Our general dental services include check-ups, cleanings, fillings, and preventative care for maintaining healthy teeth.</p>
+            </div>
+        </div>
+
+        <!-- Middle Image Section -->
+        <div class="service-image">
+            <img src="images/service-banner.png" alt="Dental Services">
+        </div>
+
+        <!-- Right Service Column -->
+        <div class="service-column">
+            <div class="service-item">
+                <i class="fas fa-dental-floss" style="font-size: 40px; color: #007bff;"></i> <!-- Dental Floss Icon -->
+                <h3>Periodontal Care</h3>
+                <p>We specialize in gum health and offer deep cleanings and periodontal care to prevent and treat gum disease.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-briefcase-medical" style="font-size: 40px; color: #007bff;"></i> <!-- Medical Briefcase Icon -->
+                <h3>Emergency Care</h3>
+                <p>We offer emergency dental services for urgent dental issues such as pain, accidents, and injuries.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 class="doc">Our Doctors</h2>
+    <div class="team-container" id="doctors">
+    <!-- Left Arrow -->
+    <div class="arrow arrow-left" onclick="moveLeft()">
+        <i class="fas fa-chevron-left"></i>
+    </div>
+
+    <!-- Cards Container -->
+    <div class="team-cards">
+        <!-- Team Member 1 -->
+        <div class="card">
+            <div class="content">
+                <div class="profile">
+                    <img src="images/doc1 (1).jpg" alt="Team Member 1">
+                </div>
+                <div class="detail">
+                    <h2>Dr. Jane Smith</h2>
+                    <h4>Orthodontist</h4>
+                    <div class="social">
+                        <!-- Social Links -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="card">
+            <div class="content">
+                <div class="profile">
+                    <img src="images/doc1 (2).jpg" alt="Team Member 2">
+                </div>
+                <div class="detail">
+                    <h2>Dr. Jane Smith</h2>
+                    <h4>Orthodontist</h4>
+                    <div class="social">
+                        <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook facebook"></a>
+                        <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram instagram"></a>
+                        <a href="https://wa.me/+123456789" target="_blank" class="fab fa-whatsapp whatsapp"></a>
+                        <a href="https://www.tiktok.com" target="_blank" class="fab fa-tiktok tiktok"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="card">
+            <div class="content">
+                <div class="profile">
+                    <img src="images/doc1(3).jpg" alt="Team Member 3">
+                </div>
+                <div class="detail">
+                    <h2>Dr. John Doe</h2>
+                    <h4>Dentist</h4>
+                    <div class="social">
+                        <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook facebook"></a>
+                        <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram instagram"></a>
+                        <a href="https://wa.me/+123456789" target="_blank" class="fab fa-whatsapp whatsapp"></a>
+                        <a href="https://www.tiktok.com" target="_blank" class="fab fa-tiktok tiktok"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="card">
+            <div class="content">
+                <div class="profile">
+                    <img src="images/doc1 (4).jpg" alt="Team Member 4">
+                </div>
+                <div class="detail">
+                    <h2>Dr. Alice Brown</h2>
+                    <h4>Dental Hygienist</h4>
+                    <div class="social">
+                        <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook facebook"></a>
+                        <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram instagram"></a>
+                        <a href="https://wa.me/+123456789" target="_blank" class="fab fa-whatsapp whatsapp"></a>
+                        <a href="https://www.tiktok.com" target="_blank" class="fab fa-tiktok tiktok"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 5 -->
+        <div class="card">
+            <div class="content">
+                <div class="profile">
+                    <img src="images/Smiling Nurse.jpg" alt="Team Member 5">
+                </div>
+                <div class="detail">
+                    <h2>Dr. Robert Wilson</h2>
+                    <h4>Oral Surgeon</h4>
+                    <div class="social">
+                        <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook facebook"></a>
+                        <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram instagram"></a>
+                        <a href="https://wa.me/+123456789" target="_blank" class="fab fa-whatsapp whatsapp"></a>
+                        <a href="https://www.tiktok.com" target="_blank" class="fab fa-tiktok tiktok"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Arrow -->
+    <div class="arrow arrow-right" onclick="moveRight()">
+        <i class="fas fa-chevron-right"></i>
+    </div>
+</div>
+
+
+    <section class="products">
+		<h2 class="doc">Pricing Plans</h2>
+		<div class="all-products">
+			<div class="product">
+				<img src="images/Cifrao.jpg" alt="Basic Plan" style="height: 30%;">
+				<div class="product-info">
+					<h4 class="product-title">Basic Plan</h4>
+					<p class="product-price">R50</p>
+					<ul>
+						<li>General Checkup</li>
+						<li>Teeth Cleaning</li>
+						<li>Basic X-Ray</li>
+					</ul>
+					<a class="product-btn" href="#">Select Plan</a>
+				</div>
+			</div>
+
+			<div class="product">
+				<img src="images/Cifrao.jpg" alt="Standard Plan" style="height: 30%;">
+				<div class="product-info">
+					<h4 class="product-title">Standard Plan</h4>
+					<p class="product-price">R120</p>
+					<ul>
+						<li>General Checkup</li>
+						<li>Teeth Cleaning</li>
+						<li>Advanced X-Ray</li>
+						<li>1 Filling</li>
+					</ul>
+					<a class="product-btn" href="#">Select Plan</a>
+				</div>
+			</div>
+
+			<div class="product">
+				<img src="images/Cifrao.jpg " alt="Premium Plan" style="height: 30%;">
+				<div class="product-info">
+					<h4 class="product-title">Premium Plan</h4>
+					<p class="product-price">R250</p>
+					<ul>
+						<li>General Checkup</li>
+						<li>Teeth Cleaning</li>
+						<li>Comprehensive X-Ray</li>
+						<li>2 Fillings</li>
+						<li>Whitening Treatment</li>
+					</ul>
+					<a class="product-btn" href="#">Select Plan</a>
+				</div>
+			</div>
+		</div>
+	</section>
+        <h2 class="doc">Book an Appointment</h2>
+    <div class="form"  id="appointment">
+        <form id="appointmentForm">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="appointmentDate">Preferred Appointment Date</label>
+                <input type="date" id="appointmentDate" name="appointmentDate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="appointmentTime">Preferred Appointment Time</label>
+                <input type="time" id="appointmentTime" name="appointmentTime" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Additional Notes</label>
+                <textarea id="message" name="message" placeholder="Any specific requests or questions" rows="4"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Book Appointment</button>
+            </div>
+
+        </form>
+    </div>
+
+    <footer class="bg-blue-900 text-white py-10">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
+          <!-- Image Section (Left) -->
+          <div class="flex justify-center md:justify-start">
+            <img src="images/Dentists.jpg" alt="Dental Care" class="image2">
+          </div>
+      
+          <!-- Quick Links Section (Center) -->
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+            <ul class="space-y-2">
+                <li><a href="#home" class="hover:text-blue-300 transition">Home</a></li>
+                <li><a href="#about" class="hover:text-blue-300 transition">About us</a></li>
+                <li><a href="#services" class="hover:text-blue-300 transition">Services</a></li>
+                <li><a href="#doctors" class="hover:text-blue-300 transition">Doctors</a></li>
+                <li><a href="#appointment" class="hover:text-blue-300 transition">Book Appointment</a></li>
+            </ul>
+          </div>
+      
+          <!-- Contact Section (Right) -->
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Contact Us</h3>
+            <p class="text-sm">123 Dental Street, Joburg, South Africa</p>
+            <p class="text-sm">Phone: +27 123 456 7890</p>
+            <p class="text-sm">Email: info@dentistclinic.com</p>
+          </div>
+        </div>
+      
+        <div class="text-center mt-10 text-sm border-t border-blue-700 pt-5">
+          &copy; 2025 Tumelo SDUMI. All Rights Reserved.
+        </div>
+      </footer>
+      
+    <script>
+        // JavaScript to handle scrolling left and right
+        let currentPosition = 0;
+        const teamCards = document.querySelector('.team-cards');
+        const cardWidth = document.querySelector('.card').offsetWidth + 20; // Card width + margin
+
+        // Move cards left
+        function moveLeft() {
+            if (currentPosition > 0) {
+                currentPosition--;
+                teamCards.style.transform = `translateX(-${currentPosition * cardWidth}px)`;
+            }
+        }
+
+        // Move cards right
+        function moveRight() {
+            if (currentPosition < teamCards.children.length - 3) {
+                currentPosition++;
+                teamCards.style.transform = `translateX(-${currentPosition * cardWidth}px)`;
+            }
+        }
+    </script>
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; /* Hide all slides */
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        slides[slideIndex - 1].style.display = "block"; /* Show the current slide */
+        setTimeout(showSlides, 4000); /* Change slide every 4 seconds */
+    }
+</script>
+<script>
+    const menuIcon = document.getElementById('menu-icon');
+const navLinks = document.getElementById('nav-links');
+
+menuIcon.addEventListener('click', () => {
+  navLinks.classList.toggle('show');  // Change 'active' to 'show'
+});
+
+</script>
+
+</html>
